@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Source - https://stackoverflow.com/a
+// Posted by Laurens Holst, modified by community. See post 'Timeline' for change history
+// Retrieved 2025-11-15, License - CC BY-SA 4.0
+function shuffleArray(array: string[]) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+const friends = shuffleArray(["jeongwoo.xyz", "prydt.xyz"]);
+
+import { Content as About } from "./about.md";
+---
+
+<BaseLayout title="About">
+    <About />
+    <h2>Webring</h2>
+    <p>Check out my friends' sites (randomly ordered):</p>
+    <ul>
+        {
+            friends.map((friend) => (
+                <li>
+                    <a href={"https://" + friend}>{friend}</a>
+                </li>
+            ))
+        }
+    </ul>
+    <p>Contact me if you want your site to be added to the webring!</p>
+</BaseLayout>

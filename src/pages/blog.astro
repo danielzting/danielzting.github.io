@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const posts = import.meta.glob("./blog/*.md", { eager: true });
+---
+
+<BaseLayout title="Blog">
+    <ul>
+        {
+            Object.values(posts)
+                .sort(
+                    (a: any, b: any) =>
+                        Date.parse(b.frontmatter.date) -
+                        Date.parse(a.frontmatter.date),
+                )
+                .map((post: any) => (
+                    <li>
+                        <a href={post.url}>{post.frontmatter.title}</a>
+                    </li>
+                ))
+        }
+    </ul>
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const projects = import.meta.glob("./portfolio/*.md", { eager: true });
+---
+
+<BaseLayout title="Portfolio">
+    <p>
+        Here are all of my projects that I am actually proud to present. If you
+        want to view the rest of my work for some reason, which is mostly
+        laughably broken hackathon submissions and abandoned side projects, you
+        can go to my <a href="https://github.com/danielzting/">GitHub</a>.
+    </p>
+    <ul>
+        {
+            Object.values(projects)
+                .sort(
+                    (a: any, b: any) =>
+                        Date.parse(b.frontmatter.date) -
+                        Date.parse(a.frontmatter.date),
+                )
+                .map((project: any) => (
+                    <li>
+                        <a href={project.url}>{project.frontmatter.title}</a>
+                    </li>
+                ))
+        }
+    </ul>
+</BaseLayout>

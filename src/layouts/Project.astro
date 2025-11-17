@@ -1,0 +1,32 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout title={frontmatter.title}>
+    <h1>{frontmatter.title}</h1>
+    <p>
+        {
+            new Date(frontmatter.date).toLocaleString("en-US", {
+                year: "numeric",
+            })
+        } · {frontmatter.category}
+    </p>
+    <slot />
+    <script
+        src="https://giscus.app/client.js"
+        data-repo="danielzting/danielzting.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNDM5NDEyMTc="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOFIAgYc4Cx3Zr"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async></script>
+</BaseLayout>
