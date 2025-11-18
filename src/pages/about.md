@@ -10,7 +10,7 @@ You found my homepage!
 
 ### Computer science and technology
 
-Unlike many people who only program for the money, I am passionate about programming and enjoy learning new technologies 😤 (and making money). I am also interested in the hardware side of things and keep up with cool releases in consumer tech to some extent. Though I haven't actually finished a significant project in years, you can find my work on my [GitHub](https://github.com/danielzting).
+Unlike many people who only program for the money, I am passionate about programming and enjoy learning new technologies (and making money). I am also interested in the hardware side of things and keep up with cool releases in consumer tech to some extent. Though I haven't actually finished a significant project in years, you can find my work on my [GitHub](https://github.com/danielzting).
 
 ### Powerlifting and sports
 

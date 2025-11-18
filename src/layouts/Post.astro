@@ -4,17 +4,19 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout title={frontmatter.title}>
-    <h1>{frontmatter.title}</h1>
-    <p>
-        {
-            new Date(frontmatter.date).toLocaleString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-            })
-        }
-    </p>
-    <slot />
+    <article>
+        <h1>{frontmatter.title}</h1>
+        <p>
+            {
+                new Date(frontmatter.date).toLocaleString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                })
+            }
+        </p>
+        <slot />
+    </article>
     <script
         src="https://giscus.app/client.js"
         data-repo="danielzting/danielzting.github.io"

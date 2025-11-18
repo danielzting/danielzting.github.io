@@ -1,4 +1,20 @@
+html {
+    scrollbar-gutter: stable;
+}
+
+body {
+    margin: 1em;
+    font-size: large;
+    color: #111;
+    background-color: #fffcf6;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+.centered-constrained {
+    max-width: 50em;
+    margin: 0 auto;
 }

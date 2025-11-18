@@ -17,9 +17,6 @@ Technically, this isn't the same as a true max. I haven't bothered to test for a
 
 Given that I basically didn't train for almost all of December and January because of winter break and UT's decision to keep the first two weeks of spring 2022 online, these stats correspond roughly to an increase of 10 lbs/month for lower body and 5 lbs/month for upper body. Not prodigy-levels of progress but solid for me personally. Extrapolating this would give exactly 14 months or just before the last year of undergrad to get into the thousand pound club. This is most likely a pretty optimistic assumption but a worthwhile goal to work towards. We're All Gonna Make It!™ :)
 
-![The weight room of UT Austin's Gregory gym](https://photos.smugmug.com/photos/i-Xzz6cvc/0/X3/i-Xzz6cvc-X3.jpg)
-<p align="center"><em>Can't think of a good image, so here's a random shot of Greg from <a href="https://recsports.smugmug.com/Facilities/Gregory-Gym/Website-Gallery/">UT RecSports</a>. Too bad it's never this empty...</em></p>
-
 As for what I think of the program itself, I would highly recommend it to any beginner. The varying rep ranges and progression scheme as well as the fact that every other day is a rest day meant I never really got burnt out. It is slightly more complex than 3-day MWF programs like SL and SS but pays off by having a much more balanced squat to deadlift/bench ratio. I found the [Clank](https://apps.apple.com/us/app/clank-weight-lifting/id1455163991) app amazing for tracking weights and its built-in rest timer with notifications. Unfortunately it is only on iOS but I'm sure there are equally great alternatives on Android.
 
 For now, though, I feel it is time to move on to [nSuns](https://thefitness.wiki/routines/nsuns-lp/) or another 5/3/1 variant. I think there are still gains left in GZCLP but I've clearly exhausted the "linear progression" part. I no longer have any noob gains to exploit and would just like to switch things up.
