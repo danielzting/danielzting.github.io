@@ -3,11 +3,11 @@ layout: ../../layouts/Project.astro
 title: Cuble
 summary: The Wordle of Rubik's Cubes! Guess the scramble in as few tries as you can. Cubing experience helpful.
 category: JavaScript, Game
-image: https://raw.githubusercontent.com/DanielZTing/cuble/master/demo.png
+image: https://raw.githubusercontent.com/danielzting/cuble/master/demo.png
 alt: 2D projection of Rubik's cube
 date: 2022-04-17
 ---
 
-![2D projection of Rubik's cube](https://raw.githubusercontent.com/DanielZTing/cuble/master/demo.png)
+![2D projection of Rubik's cube](https://raw.githubusercontent.com/danielzting/cuble/master/demo.png)
 
 Perhaps my most difficult project so far, I present [Cuble](https://danielzting.github.io/cuble/), a Wordle clone where you try to guess the scramble of a Rubik's Cube. Built with three.js, I learned a ton making this, including LocalStorage, Vite, and PWA service workers.

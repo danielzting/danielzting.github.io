@@ -1,10 +1,11 @@
 ---
 layout: ../../layouts/Post.astro
-title: "Automatically replacing text in dynamic webpages (or: have web standards become too bloated?)"
+title: "Automatically replacing text in dynamic webpages"
+summary: "How a seemingly simple problem turned out to be theoretically unsolvable."
 date: 2021-08-29
 ---
 
-# Introduction and Motivation
+## Introduction and Motivation
 
 [SKIP TO EXPLANATION](#explanation)
 
@@ -16,7 +17,7 @@ This operation is something every programmer is familiar with. It is ubiquitous 
 
 My idea was to create a browser extension that does some primitive version of that by, say, substituting strong words with softer ones ("extremely" to "a little") and cutting out swear words entirely. To do this, I would need a reliable and performant way to manipulate the text on a webpage. Not only that, I would need to monitor the DOM and process any text added or modified after initial load, because almost every site nowadays has the ability to dynamically request new content with background AJAX calls (think about when you press "more comments" on Reddit or switch channels in Discord: these actions don't need to refresh the entire page). This turned out to be quite a nontrivial problem and `TextObserver` was born out of the resulting rabbit hole.
 
-# Explanation
+## Explanation
 
 There are two main functional pieces of a `TextObserver` object: the part that finds and replaces text already on a page and the part that watches for added or changed text. I will discuss the former first because it makes up the meat of the library and is used by the latter. To understand how to programatically edit the text on a site, we need to know that text can be found in the DOM as multiple representations, of which all but one can be seen as special cases. We will go over how to process each one by one.
 
@@ -24,7 +25,7 @@ There are two main functional pieces of a `TextObserver` object: the part that f
 2. Special attributes like `<input>` `placeholder`s (and `value` for those of `type="button"`, `<img>` `alt` text, and `title` (tooltips). These are *not* `Text` nodes but are rendered as front-facing text by the browser.
 3. The CSS [`content`](https://developer.mozilla.org/en-US/docs/Web/CSS/content) property. This is even trickier to deal with since it's effectively invisible to the DOM but still seen by the end user.
 
-## Text nodes
+### Text nodes
 
 The "default" representation and by far the most straightforward to replace. We use a [`TreeWalker`](https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker) to go through every `Text` node and replace their contents. In all of the following snippets, assume `callback` is a function that accepts a string as a parameter and returns the string to replace it with.
 
@@ -64,7 +65,7 @@ function valid(node) {
 }
 ```
 
-## Special attributes
+### Special attributes
 
 The above is sufficiently thorough for, if I had to guess, 97% of cases. For most people, that should be enough. But if the last three percent is important, we must take into account some special cases, the first of which are certain attributes that the browser displays as user-visible text:
 
@@ -93,7 +94,7 @@ for (const [attribute, selectors] of Object.entries(WATCHED_ATTRIBUTES)) {
 }
 ```
 
-## CSS content
+### CSS content
 
 The CSS `content` property can be used to generate text, usually used with the [`::before`](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) or [`::after`](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) pseudo-elements (but also available on [`::marker`](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)). CSS-generated content is not visible in the DOM, so we must use a roundabout hack: call [`getComputedStyle`](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle) to read off every pseudo-element's `content`. If the property value is a plain string (`content` can accept many value types, including images and [counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters)), then inject our own style rule which overrides the property for that specific pseudo-element.
 
@@ -123,7 +124,7 @@ while (elements.nextNode()) {
 styleElement.textContent = styles;
 ```
 
-## Observer
+### Observer
 
 Now that we have a way to robustly substitute text across a document, we can start working on the part that does the observation. The [`MutationObserver`](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) interface provides a way to track updates in the DOM. We can extract all of our previous code to a `processNodes()` function and replace every instance of `document.body` with a single parameter representing the root node and leverage that in our observation callback.
 
@@ -199,7 +200,7 @@ observer.observe(document.body, CONFIG);
 
 The length may be intimidating but this part is relatively straightforward compared to what we've gone through. We check each mutation and if it's an added node, we process it recursively leveraging the `processNodes()` function we wrote previously. If it's a changed [`CharacterData`](https://developer.mozilla.org/en-US/docs/Web/API/CharacterData) node we have to check that it is a real `Text` node and not one of the other types that implement the more general `CharacterData` interface. And if it's an attribute we check if the changed element is one we're actually watching. Believe it or not, we are now done! Hopefully this was helpful in documenting the thought process and structure behind `TextObserver`.
 
-# Just kidding, the web is complicated
+## Just kidding, the web is complicated
 
 This code doesn't work on `<iframe>`s. It misses Shadow DOMs. It chokes on "recursive" replacements (e.g. try replacing 'e' with 'ee' and you'll occasionally end up with 'eeee'). And online word processors might show quirky behavior. This isn't all of the code in `TextObserver`. The full library provides extra convenience functions as well as mitigations for some of the above, but at well over 300 lines, explaining every single line would turn this post into a book.
 

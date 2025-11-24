@@ -19,7 +19,7 @@ Inspired by [`findAndReplaceDOMText`](https://github.com/padolsey/findAndReplace
 <img src="https://imgs.xkcd.com/comics/substitutions_2x.png" alt="Funny word substitutions" width="438" height="376">
 <p align="center"><em>Image credit to <a href="https://xkcd.com/1288">xkcd 1288: Substitutions</a></em></p>
 
-See the [repository README](https://github.com/DanielZTing/TextObserver) for more details. Here's an example of a more advanced regex that uses capturing groups/backreferences to convert miles to kilometers:
+See the [repository README](https://github.com/danielzting/TextObserver) for more details. Here's an example of a more advanced regex that uses capturing groups/backreferences to convert miles to kilometers:
 
 ```javascript
 const unitConverter = new TextObserver(text => text.replaceAll(

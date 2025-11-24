@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const links = [
+    {
+        text: "GitHub",
+        href: "https://github.com/danielzting",
+        logo: "/logos/github.svg",
+    },
+    {
+        text: "OpenPowerlifting",
+        href: "https://www.openpowerlifting.org/u/danielting1",
+        logo: "/logos/openpowerlifting.png",
+    },
+    {
+        text: "Steam",
+        href: "https://steamcommunity.com/id/unixrubix",
+        logo: "/logos/steam.svg",
+    },
+    {
+        text: "Apple Music",
+        href: "https://music.apple.com/profile/danielzting",
+        logo: "/logos/applemusic.svg",
+    },
+    {
+        text: "World Cube Association",
+        href: "https://www.worldcubeassociation.org/persons/2017TING02",
+        logo: "/logos/wca.svg",
+    },
+];
+---
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img {
+        height: 48px;
+    }
+</style>
+
+<BaseLayout title="Links">
+    <ul>
+        {
+            links.map((link) => (
+                <li>
+                    <div>
+                        <img src={link.logo} alt="Logo" />
+                    </div>
+                    <h2>
+                        <a href={link.href}>{link.text}</a>
+                    </h2>
+                </li>
+            ))
+        }
+    </ul>
+</BaseLayout>

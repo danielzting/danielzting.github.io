@@ -1,7 +1,23 @@
+---
+const activeClass = (href: string) =>
+    Astro.url.pathname === href ? "active" : "";
+---
+
+<style>
+    a {
+        padding-right: 0.2rem;
+    }
+
+    .active {
+        font-weight: bold;
+    }
+</style>
+
 <header>
     <nav>
-        <a href="/">About</a>
-        <a href="/blog">Blog</a>
-        <a href="/portfolio">Portfolio</a>
+        <a href="/" class={activeClass("/")}>About</a>
+        <a href="/blog" class={activeClass("/blog")}>Blog</a>
+        <a href="/portfolio" class={activeClass("/portfolio")}>Portfolio</a>
+        <a href="/links" class={activeClass("/links")}>Links</a>
     </nav>
 </header>

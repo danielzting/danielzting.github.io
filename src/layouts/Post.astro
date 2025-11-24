@@ -6,15 +6,16 @@ const { frontmatter } = Astro.props;
 <BaseLayout title={frontmatter.title}>
     <article>
         <h1>{frontmatter.title}</h1>
-        <p>
+        <time datetime={frontmatter.date.split("T")[0]}>
             {
                 new Date(frontmatter.date).toLocaleString("en-US", {
                     year: "numeric",
                     month: "long",
                     day: "numeric",
+                    timeZone: "UTC",
                 })
             }
-        </p>
+        </time>
         <slot />
     </article>
     <script

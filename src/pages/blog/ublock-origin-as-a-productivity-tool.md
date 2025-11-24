@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: uBlock Origin as a productivity tool
+summary: Has brainrot destroyed your attention span? This post might help!
 date: 2021-09-07
 ---
 

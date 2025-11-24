@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Hello, world! Double double standards, and Windy's Law
+summary: An intro post about our psychological biases.
 date: 2021-03-03
 ---
 

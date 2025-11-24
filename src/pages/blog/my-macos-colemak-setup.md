@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: My macOS Colemak setup
+summary: Why I use a weird keyboard layout, and why you probably shouldn't.
 date: 2022-06-19
 ---
 

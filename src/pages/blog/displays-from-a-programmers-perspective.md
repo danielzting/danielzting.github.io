@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Displays from a programmer's perspective
+summary: My possibly overly strong opinions on glowing rectangles.
 date: 2022-01-22
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Three months of GZCLP
+summary: A recap of my first three months of lifting.
 date: 2022-05-16
 ---
 

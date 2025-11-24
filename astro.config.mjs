@@ -7,11 +7,14 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://danielzting.github.io',
   trailingSlash: 'never',
-
   image: {
-      responsiveStyles: true,
-      layout: 'constrained',
+    responsiveStyles: true,
+    layout: 'constrained',
   },
-
   integrations: [sitemap()],
+  markdown: {
+    shikiConfig: {
+      theme: 'rose-pine-dawn',
+    },
+  },
 });

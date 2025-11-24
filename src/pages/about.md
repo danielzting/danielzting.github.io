@@ -14,7 +14,7 @@ Unlike many people who only program for the money, I am passionate about program
 
 ### Powerlifting and sports
 
-This is currently my biggest hobby, which I'm a little reluctant to admit, since I say I train for strength over aesthetics but currently have neither 😆 I never liked any sports growing up besides maybe table tennis, so if you told my past 140lbs completely unathletic self that I would become a gym bro I would have not believed you. Even though I'm barely a beginner in this sport, I'm proud of how much I've come so far. You can view my competition PRs at my first and only meet on [LiftingCast](https://liftingcast.com/meets/maxeuynlp25a/lifter/lpefmlmnm49y/results).
+This is currently my biggest hobby, which I'm a little reluctant to admit, since I say I train for strength over aesthetics but currently have neither 😆 I never liked any sports growing up besides maybe table tennis, so if you told my past 140lbs completely unathletic self that I would become a gym bro I would have not believed you. Even though I'm barely a beginner in this sport, I'm proud of how much I've come so far. You can view my competition PRs at [OpenPowerlifting](https://www.openpowerlifting.org/u/danielting1).
 
 Other sports I enjoy are table tennis, biking, and running. I don't do these consistently and would not be able to hold a conversation about them, but they're still fun.
 
@@ -26,7 +26,7 @@ I would consider myself fairly skilled at Geometry Dash—nowhere near top playe
 
 I may be a STEM major but I do appreciate the creative arts too. Music is a big part of my life in that I have a decent number of years of experience playing piano, and I like going to concerts. My most listened-to genres are EDM, Christian, and classical, but I will listen to anything. If you have any music recommendations, let me know! You can find me on [Apple Music](https://music.apple.com/profile/danielzting).
 
-I love a good book too, though I don't read nearly as much as I should these days. My favorite non-fiction book is *Gödel, Escher, Bach* and my favorite fiction series is the *Three Body Problem* trilogy (I'm a huge sucker for sci-fi).
+I love a good book too, though I don't read nearly as much as I should these days. My favorite non-fiction book is *Gödel, Escher, Bach* and my favorite fiction series is the *Three Body Problem* trilogy. I'm a huge sucker for sci-fi.
 
 ### Twisty puzzles
 

@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Reflections on the meaning of The Talos Principle
+summary: An amateur philosophical treatise I wrote for a class about video games as literature.
 date: 2021-03-19
 ---
 
