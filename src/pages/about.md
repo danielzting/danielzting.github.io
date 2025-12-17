@@ -14,13 +14,13 @@ Unlike many people who only program for the money, I am passionate about program
 
 ### Powerlifting and sports
 
-This is currently my biggest hobby, which I'm a little reluctant to admit, since I say I train for strength over aesthetics but currently have neither 😆 I never liked any sports growing up besides maybe table tennis, so if you told my past 140lbs completely unathletic self that I would become a gym bro I would have not believed you. Even though I'm barely a beginner in this sport, I'm proud of how much I've come so far. You can view my competition PRs at [OpenPowerlifting](https://www.openpowerlifting.org/u/danielting1).
+This is currently my biggest hobby, which I'm a little reluctant to admit, since I say I train for strength over aesthetics but currently have neither 😆 I never liked any sports growing up, so if you told my past 140lbs completely unathletic self that I would become a gym bro I would have not believed you. Even though I'm barely a beginner in this sport, I'm proud of how much I've come so far. You can view my competition PRs at [OpenPowerlifting](https://www.openpowerlifting.org/u/danielting1).
 
 Other sports I enjoy are table tennis, biking, and running. I don't do these consistently and would not be able to hold a conversation about them, but they're still fun.
 
 ### Gaming
 
-I would consider myself fairly skilled at Geometry Dash—nowhere near top players, but I have beaten two extreme demons (Acu and Cataclysm) and have 75% on Bloodbath. I don't play any other games seriously, but I do play Minecraft as a medium of hanging out, and some story-driven singleplayer games. You can find me on [Steam](https://steamcommunity.com/id/unixrubix).
+I would consider myself fairly skilled at Geometry Dash—nowhere near top players, but I have beaten extreme demons. I don't play any other games seriously, but I do play Minecraft as a medium of hanging out, some story-driven singleplayer games, and the occasional friendslop when my friends force me to buy it. You can find me on [Steam](https://steamcommunity.com/id/unixrubix).
 
 ### Music and literature
 

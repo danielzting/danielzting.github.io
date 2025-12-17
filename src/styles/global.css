@@ -17,6 +17,7 @@ body {
     font-size: large;
     color: var(--text-color);
     background-color: #fffdf8;
+    line-height: 1.5;
 }
 
 img {
@@ -37,4 +38,21 @@ a {
 
 pre {
     padding: 1rem;
+}
+
+sup,
+sub {
+    line-height: 0;
+    /* Prevent superscripts and subscripts from making line height uneven */
+}
+
+/* https://css-tricks.com/inclusively-hidden/ */
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
