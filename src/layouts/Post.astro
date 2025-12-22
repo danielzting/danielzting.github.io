@@ -19,6 +19,8 @@ const { frontmatter } = Astro.props;
         <slot />
     </article>
     <script
+        is:inline
+        data-astro-rerun
         src="https://giscus.app/client.js"
         data-repo="danielzting/danielzting.github.io"
         data-repo-id="MDEwOlJlcG9zaXRvcnkzNDM5NDEyMTc="
@@ -35,3 +37,10 @@ const { frontmatter } = Astro.props;
         crossorigin="anonymous"
         async></script>
 </BaseLayout>
+
+<style>
+    time {
+        display: inline-block;
+        padding-bottom: 1rem;
+    }
+</style>

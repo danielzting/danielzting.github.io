@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: Thoughts on Gödel, Escher, Bach
-summary: A review of my favorite non-fiction book and my attempt at explanining Gödel's Theorem.
+summary: A review of my favorite non-fiction book and my try at explanining Gödel's Theorem.
 date: 2022-01-09
 ---
 

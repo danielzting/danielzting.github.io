@@ -2,11 +2,12 @@
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
+import { ClientRouter } from "astro:transitions";
 
 const { title, frontmatter } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" class="dark">
     <head>
         <meta charset="utf-8" />
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
@@ -26,10 +27,41 @@ const { title, frontmatter } = Astro.props;
             async
             src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
         ></script>
+        <ClientRouter />
+        <script is:inline>
+            function setTheme() {
+                const lightTheme = localStorage.getItem("lightTheme");
+                if (lightTheme) {
+                    document.documentElement.classList.remove("dark");
+                } else {
+                    document.documentElement.classList.add("dark");
+                }
+            }
+            setTheme();
+        </script>
     </head>
     <body>
-        <div class="centered-constrained">
+        <section id="lines-vertical">
+            {
+                [...Array(20).keys()].map((i) => (
+                    <div class="line" style={`animation-delay: ${i / 30}s`} />
+                ))
+            }
+        </section>
+        <section id="lines-horizontal">
+            {
+                [...Array(20).keys()].map((i) => (
+                    <div class="line" style={`animation-delay: ${i / 30}s`} />
+                ))
+            }
+        </section>
+        <script>
+            document.addEventListener("astro:page-load", setTheme);
+        </script>
+        <div class="centered-constrained" id="header">
             <Header />
+        </div>
+        <div class="centered-constrained cover-and-surround" id="content">
             <main>
                 <slot />
             </main>
@@ -38,3 +70,67 @@ const { title, frontmatter } = Astro.props;
         </div>
     </body>
 </html>
+
+<style>
+    #lines-vertical {
+        position: fixed;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: space-between;
+        z-index: -1;
+    }
+
+    #lines-horizontal {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        justify-content: space-between;
+        z-index: -1;
+    }
+
+    @keyframes pulse {
+        from {
+            opacity: 0.1;
+        }
+        75% {
+            opacity: 0.1;
+        }
+        85% {
+            opacity: 0.5;
+        }
+        90% {
+            opacity: 0.5;
+        }
+        to {
+            opacity: 0.1;
+        }
+    }
+
+    html.dark .line {
+        border: 1px solid rgb(49%, 98%, 72%);
+        animation: pulse 10s infinite;
+        z-index: -1;
+        opacity: 0.1;
+    }
+
+    .centered-constrained {
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+
+    html.dark .centered-constrained {
+        text-shadow: 0 0 1px var(--text-color);
+        filter: blur(0.1px);
+    }
+
+    #header {
+        padding-top: 1rem;
+    }
+
+    #content {
+        margin-bottom: 1rem;
+    }
+</style>

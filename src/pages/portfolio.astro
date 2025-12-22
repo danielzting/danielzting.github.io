@@ -3,34 +3,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const projects = import.meta.glob("./portfolio/*.md", { eager: true });
 ---
 
-<style>
-    ul {
-        list-style: none;
-        padding: 0;
-        display: grid;
-        grid-template-columns: repeat(
-            auto-fit,
-            minmax(calc(320px - 2rem), 1fr)
-        );
-        grid-gap: 1rem;
-    }
-
-    li {
-        border: 1px solid var(--text-color);
-        padding: 1rem;
-    }
-
-    li p {
-        margin: 0;
-    }
-
-    img {
-        height: 200px;
-        object-fit: fill;
-        width: 100%;
-    }
-</style>
-
 <BaseLayout title="Portfolio">
     <p>
         Here are all of my projects that I am actually proud to present. If you
@@ -63,3 +35,32 @@ const projects = import.meta.glob("./portfolio/*.md", { eager: true });
         }
     </ul>
 </BaseLayout>
+
+<style>
+    ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(calc(320px - 2rem), 1fr)
+        );
+        grid-gap: 1rem;
+    }
+
+    li {
+        border: 1px solid var(--text-color);
+        padding: 1rem;
+    }
+
+    li p {
+        margin: 0;
+    }
+
+    img {
+        height: 200px;
+        object-fit: fill;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+</style>

@@ -1,6 +1,36 @@
-<footer class="footer" role="contentinfo">
+<footer>
     <a href="/rss.xml">RSS Feed</a>
     <span>‧</span>
     <a rel="license" href="/license">CC BY-SA 4.0</a>
-    <i style="float: right;">100% Handcrafted</i>
+    <a id="darkmode-toggle">Toggle Theme</a>
 </footer>
+
+<style>
+    html.dark footer {
+        font-family: "Times New Roman Compressed", "Times New Roman", serif;
+        text-transform: uppercase;
+    }
+
+    #darkmode-toggle {
+        float: right;
+        text-decoration: underline;
+    }
+</style>
+
+<script>
+    function toggleListener() {
+        const toggle = document.getElementById(
+            "darkmode-toggle",
+        ) as HTMLInputElement;
+        toggle.addEventListener("click", () => {
+            if (document.documentElement.classList.contains("dark")) {
+                localStorage.setItem("lightTheme", "true");
+                document.documentElement.classList.remove("dark");
+            } else {
+                localStorage.removeItem("lightTheme");
+                document.documentElement.classList.add("dark");
+            }
+        });
+    }
+    document.addEventListener("astro:page-load", toggleListener);
+</script>

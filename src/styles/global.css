@@ -1,23 +1,101 @@
+/* Adapted from https://www.joshwcomeau.com/css/custom-css-reset/ */
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    margin-top: 0;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/* Our custom styles */
+
 :root {
     --text-color: #111;
+    --bg-color: #fffdf8;
+}
+
+:root.dark {
+    --text-color: #e6770b;
+    --bg-color: #121212;
 }
 
 html {
     scrollbar-gutter: stable;
 }
 
+@font-face {
+    font-family: 'Times New Roman Compressed';
+    src: URL('/times-new-roman-compressed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Times New Roman Compressed';
+    src: URL('/times-new-roman-bold-compressed.ttf') format('truetype');
+    font-weight: bold;
+}
+
 body {
-    margin: 1rem;
+    margin: 0;
     font-size: large;
     color: var(--text-color);
-    background-color: #fffdf8;
+    background-color: var(--bg-color);
     line-height: 1.5;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+    font-family: 'Times New Roman Compressed', 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 img {
@@ -27,13 +105,21 @@ img {
     height: auto;
 }
 
-.centered-constrained {
-    max-width: 50rem;
-    margin: 0 auto;
+.cover-and-surround {
+    padding: 1rem;
+}
+
+html.dark .cover-and-surround {
+    background-color: var(--bg-color);
+    border: 1px solid var(--text-color);
 }
 
 a {
     color: rgb(33, 125, 45);
+}
+
+html.dark a {
+    color: hsl(from var(--text-color) h s calc(l + 20))
 }
 
 pre {

@@ -17,4 +17,5 @@ export default defineConfig({
       theme: 'rose-pine-dawn',
     },
   },
+  prefetch: true,
 });

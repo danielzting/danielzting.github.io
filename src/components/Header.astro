@@ -1,22 +1,39 @@
 ---
 const activeClass = (href: string) =>
-    Astro.url.pathname === href ? "active" : "";
+    "cover-and-surround " + (Astro.url.pathname === href ? "active" : "");
 ---
 
+<header>
+    <nav>
+        <div>
+            <a href="/" class={activeClass("/")}>About</a>
+            <a href="/blog" class={activeClass("/blog")}>Blog</a>
+            <a href="/portfolio" class={activeClass("/portfolio")}>Portfolio</a>
+        </div>
+    </nav>
+</header>
+
 <style>
-    a {
-        padding-right: 0.2rem;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .active {
         font-weight: bold;
     }
-</style>
 
-<header>
-    <nav>
-        <a href="/" class={activeClass("/")}>About</a>
-        <a href="/blog" class={activeClass("/blog")}>Blog</a>
-        <a href="/portfolio" class={activeClass("/portfolio")}>Portfolio</a>
-    </nav>
-</header>
+    html.dark .active {
+        color: var(--bg-color);
+        background-color: var(--text-color);
+    }
+
+    html.dark a {
+        display: inline-block;
+        font-family: "Times New Roman Compressed", "Times New Roman", serif;
+        text-transform: uppercase;
+        border: 1px solid var(--text-color);
+        padding: 0.5rem 1rem;
+    }
+</style>

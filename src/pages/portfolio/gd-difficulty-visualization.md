@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Project.astro
-title: Geometry Dash Difficulty Visualization
+title: GD Difficulty Visualization
 summary:  An interactive visualization of the tremendous difficulty scale of Geometry Dash from the easiest to the hardest level in the game. 
 category: JavaScript, Informational
 image: https://static.wikia.nocookie.net/geometry-dash-fan/images/a/a4/SLAUGHTERHOUSE_River.jpg
