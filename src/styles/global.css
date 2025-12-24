@@ -64,6 +64,15 @@ h6 {
     --bg-color: #121212;
 }
 
+html.dark pre {
+    background-color: var(--bg-color) !important;
+}
+
+html.dark .giscus {
+    position: relative;
+    z-index: 9;
+}
+
 html {
     scrollbar-gutter: stable;
 }
@@ -91,7 +100,7 @@ body {
 html.dark body::before {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
@@ -192,12 +201,12 @@ html.dark body::before {
 html.dark body::after {
     content: " ";
     display: block;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(18, 16, 16, 0.1);
+    background: rgba(18, 16, 16, 0.05);
     opacity: 0;
     z-index: 2;
     pointer-events: none;
@@ -220,6 +229,10 @@ img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    margin-bottom: 1rem;
+    /* Prevent the CRT flickering effect from affecting images, since it's more intrusive visually */
+    position: relative;
+    z-index: 9;
 }
 
 .cover-and-surround {
@@ -240,7 +253,20 @@ a:hover {
 }
 
 html.dark a {
-    color: hsl(from var(--text-color) h s calc(l + 20))
+    position: relative;
+    color: hsl(from var(--text-color) h s calc(l + 20));
+}
+
+html.dark a:hover::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: rgba(18, 16, 16, 0.2);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
 }
 
 pre {
