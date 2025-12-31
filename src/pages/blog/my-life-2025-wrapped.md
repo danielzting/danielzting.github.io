@@ -90,6 +90,7 @@ I have a lot of things, dare I even say resolutions, that I want to do, in desce
 - Have one-on-one or group fellowship with two new people a month
 - Finish one book every month
 - Improve my Chinese to be able to read simple (real, not graded reader) articles
+- Cook one new dish every month that's not chicken and broccoli
 - Beat Bloodbath in Geometry Dash
 
 These are quite ambitious, but even if I only get some of them, I will be very happy. If you would like an accountability partner for your own resolution, let me know and we can support each other. May we all have a blessed and fruitful 2026. Here is to a fresh start and a better year ahead!
