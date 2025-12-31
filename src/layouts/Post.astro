@@ -3,7 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout title={frontmatter.title}>
+<BaseLayout title={frontmatter.title} description={frontmatter.summary}>
     <article>
         <h1>{frontmatter.title}</h1>
         <time datetime={frontmatter.date.split("T")[0]}>
@@ -19,8 +19,8 @@ const { frontmatter } = Astro.props;
         <slot />
     </article>
     <script
-        is:inline
         data-astro-rerun
+        id="giscus-script"
         src="https://giscus.app/client.js"
         data-repo="danielzting/danielzting.github.io"
         data-repo-id="MDEwOlJlcG9zaXRvcnkzNDM5NDEyMTc="
@@ -28,10 +28,10 @@ const { frontmatter } = Astro.props;
         data-category-id="DIC_kwDOFIAgYc4Cx3Zr"
         data-mapping="pathname"
         data-strict="0"
+        data-theme="gruvbox_dark"
         data-reactions-enabled="0"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="gruvbox_dark"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
@@ -43,4 +43,23 @@ const { frontmatter } = Astro.props;
         display: inline-block;
         padding-bottom: 1rem;
     }
+
+    /* Prevent the CRT flickering effect from affecting giscus, since it's more intrusive visually */
+    html.dark .giscus {
+        position: relative;
+        z-index: 9;
+    }
 </style>
+
+<script data-astro-rerun>
+    function updateGiscusTheme() {
+        const theme = localStorage.getItem("lightTheme")
+            ? "gruvbox_light"
+            : "gruvbox_dark";
+
+        const giscus = document.getElementById("giscus-script");
+        giscus.setAttribute("data-theme", theme);
+    }
+    updateGiscusTheme();
+    window.addEventListener("astro:after-swap", updateGiscusTheme);
+</script>

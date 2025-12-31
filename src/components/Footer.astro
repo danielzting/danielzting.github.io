@@ -19,6 +19,16 @@
 </style>
 
 <script>
+    function updateGiscusTheme(theme: string) {
+        const iframe = document.querySelector(
+            "iframe.giscus-frame",
+        ) as HTMLIFrameElement;
+        iframe?.contentWindow?.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app",
+        );
+    }
+
     function toggleListener() {
         const toggle = document.getElementById(
             "darkmode-toggle",
@@ -27,9 +37,11 @@
             if (document.documentElement.classList.contains("dark")) {
                 localStorage.setItem("lightTheme", "true");
                 document.documentElement.classList.remove("dark");
+                updateGiscusTheme("gruvbox_light");
             } else {
                 localStorage.removeItem("lightTheme");
                 document.documentElement.classList.add("dark");
+                updateGiscusTheme("gruvbox_dark");
             }
         });
     }

@@ -4,7 +4,7 @@ import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
 
-const { title, frontmatter } = Astro.props;
+const { title, description, frontmatter } = Astro.props;
 ---
 
 <html lang="en" class="dark">
@@ -20,14 +20,36 @@ const { title, frontmatter } = Astro.props;
         <link rel="sitemap" href="/sitemap-index.xml" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
+
+        <!-- Garamond -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+            rel="stylesheet"
+        />
+
         <title>{(title ?? frontmatter.title) + " | Daniel Ting"}</title>
+        <meta
+            name="description"
+            content={description ?? "My personal homepage."}
+        />
+
+        <!-- SEO -->
+        <meta property="og:title" content={title ?? frontmatter.title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={Astro.url.href} />
+        <meta property="og:site_name" content="My personal homepage" />
+        <meta property="og:image" content={Astro.url.origin + "/favicon.png"} />
+
+        <ClientRouter />
 
         <script
             id="MathJax-script"
             async
             src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
         ></script>
-        <ClientRouter />
         <script is:inline>
             function setTheme() {
                 const lightTheme = localStorage.getItem("lightTheme");
@@ -38,8 +60,10 @@ const { title, frontmatter } = Astro.props;
                 }
             }
             setTheme();
+            document.addEventListener("astro:after-swap", setTheme);
         </script>
     </head>
+
     <body>
         <section id="lines-vertical">
             {
@@ -55,9 +79,6 @@ const { title, frontmatter } = Astro.props;
                 ))
             }
         </section>
-        <script>
-            document.addEventListener("astro:page-load", setTheme);
-        </script>
         <div class="centered-constrained" id="header">
             <Header />
         </div>

@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const posts = import.meta.glob("./blog/*.md", { eager: true });
 ---
 
-<BaseLayout title="Blog">
+<BaseLayout title="Blog" description="My thoughts on random things.">
     <ul>
         {
             Object.values(posts)

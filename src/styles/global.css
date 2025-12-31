@@ -64,19 +64,6 @@ h6 {
     --bg-color: #121212;
 }
 
-html.dark pre {
-    background-color: var(--bg-color) !important;
-}
-
-html.dark .giscus {
-    position: relative;
-    z-index: 9;
-}
-
-html {
-    scrollbar-gutter: stable;
-}
-
 @font-face {
     font-family: 'Times New Roman Compressed';
     src: URL('/times-new-roman-compressed.ttf') format('truetype');
@@ -88,12 +75,27 @@ html {
     font-weight: bold;
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
+::selection {
+    background-color: #8b6534;
+    color: var(--bg-color);
+}
+
+html.dark ::selection {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
 body {
     margin: 0;
     font-size: large;
     color: var(--text-color);
     background-color: var(--bg-color);
     line-height: 1.5;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
 }
 
 /* https://aleclownes.com/2017/02/01/crt-display.html */
@@ -245,7 +247,7 @@ html.dark .cover-and-surround {
 }
 
 a {
-    color: rgb(33, 125, 45);
+    color: #8b6534;
 }
 
 a:hover {
@@ -271,6 +273,10 @@ html.dark a:hover::after {
 
 pre {
     padding: 1rem;
+}
+
+html.dark pre {
+    background-color: var(--bg-color) !important;
 }
 
 sup,

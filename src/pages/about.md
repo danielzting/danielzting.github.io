@@ -4,7 +4,7 @@ title: About
 
 # Daniel Ting
 
-You found my homepage!
+You found my personal homepage!
 
 ## Interests
 
@@ -20,11 +20,11 @@ Other sports I enjoy are table tennis, biking, and running. I don't do these con
 
 ### Gaming
 
-I would consider myself fairly skilled at Geometry Dash—nowhere near top players, but I have beaten extreme demons. I don't play any other games seriously, but I do play Minecraft as a medium of hanging out, some story-driven singleplayer games, and the occasional friendslop when my friends force me to buy it. You can find me on [Steam](https://steamcommunity.com/id/unixrubix).
+I would consider myself fairly skilled at Geometry Dash—nowhere near top players, but I have beaten extreme demons. I don't play any other games seriously, but I do play Minecraft as a medium of hanging out, some story-driven singleplayer games, and the occasional friendslop when my friends force me to buy it. Of course I like to play IRL board games too. You can find me on [Steam](https://steamcommunity.com/id/unixrubix).
 
 ### Music and literature
 
-I may be a STEM major but I do appreciate the creative arts too. Music is a big part of my life in that I have a decent number of years of experience playing piano, and I like going to concerts. My most listened-to genres are EDM, Christian, and classical, but I will listen to anything. If you have any music recommendations, let me know! You can find me on [Apple Music](https://music.apple.com/profile/danielzting).
+I may be a STEM major but I do appreciate the creative arts too. Music is a big part of my life in that I have a decent number of years of experience playing piano, and I like going to concerts. My most listened-to genres are electronic, Christian, and classical, but I will listen to anything. If you have any music recommendations, let me know! You can find me on [Apple Music](https://music.apple.com/profile/danielzting).
 
 I love a good book too, though I don't read nearly as much as I should these days. My favorite non-fiction book is *Gödel, Escher, Bach* and my favorite fiction series is the *Three Body Problem* trilogy. I'm a huge sucker for sci-fi.
 
