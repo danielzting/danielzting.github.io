@@ -79,15 +79,15 @@ const { title, description, frontmatter } = Astro.props;
                 ))
             }
         </section>
-        <div class="centered-constrained" id="header">
+        <div id="everything" class="centered-constrained">
             <Header />
-        </div>
-        <div class="centered-constrained cover-and-surround" id="content">
-            <main>
-                <slot />
-            </main>
-            <hr />
-            <Footer />
+            <div class="centered-constrained cover-and-surround">
+                <main>
+                    <slot />
+                </main>
+                <hr />
+                <Footer />
+            </div>
         </div>
     </body>
 </html>
@@ -146,11 +146,7 @@ const { title, description, frontmatter } = Astro.props;
         text-shadow: 0 0 1px var(--text-color);
     }
 
-    #header {
-        padding-top: 1rem;
-    }
-
-    #content {
-        margin-bottom: 1rem;
+    #everything {
+        padding: 1rem;
     }
 </style>
