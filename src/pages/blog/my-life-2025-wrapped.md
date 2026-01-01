@@ -15,17 +15,17 @@ Every since Spotify Wrapped came out every company has been launching their own 
 
 ## Tech
 
-To be honest, I didn't learn many new technologies this year besides rewriting this website in Astro. I would highly recommend it for any personal site. It is simple and lightweight with no JavaScript bloat unless you add the bloat yourself while having all the niceties of a proper modern web framework: client-side routing, view transitions, image optimization, prefetching, etc.
+To be honest, I didn't learn many new technologies this year besides rewriting this website in Astro. I would highly recommend it for any personal site. It is simple and lightweight with zero JavaScript bloat out of the box, while having all the niceties of a proper modern web framework if you opt into them: client-side routing, view transitions, image optimization, prefetching, etc.
 
 On the hardware side, I got a Pioneer DJ DDJ-FLX4 controller to play around with. I find it pretty fun to shape and blend my music on the fly with physical controls, engaging with it in a more interactive way compared to normal listening, but I haven't put as much time into practicing as I could have. If you're reading this and ever want a DJ for your event, feel free to hit me up. It won't be good, but it'll be free!
 
 ## Sports
 
-I finally did something I wanted to do for a long time this year, which was to participate in a powerlifting meet. I won't write much else here because I want to write a dedicated post about it, so more on this later.
+I finally did something I wanted to do for a long time this year, which was to participate in a powerlifting meet. I won't write much else here because I want to write a dedicated post about it, so more on this later!
 
 ## Games
 
-I haven't been able to seriously go for a new hardest in Geometry Dash since my Windows emulator Whisky stopped working and the Mac version is capped at 60 FPS. However, I managed to get it working again with [Sikarugir](https://github.com/Sikarugir-App/Sikarugir), and even some mods that didn't work under Whisky before work now, so I might be able to finish off Bloodbath if I can find the time.
+I haven't been able to seriously go for a new hardest in Geometry Dash since my Windows emulator Whisky stopped working, and the Mac version is capped at 60 FPS. However, I managed to get it working again with [Sikarugir](https://github.com/Sikarugir-App/Sikarugir), and even some mods that didn't work under Whisky before work now, so I might be able to finish off Bloodbath if I can find the time.
 
 Besides that, the only other new game I played a lot was Silksong. It was good but I don't think anything can hold up to the sense of wonder I got when I stepped out of the elevator into the sound of gentle rain and melancholic music while the City of Tears title card appeared in the original Hollow Knight.
 
@@ -37,7 +37,7 @@ Here are the IRL games I tried:
 - Anomia: you get cards with a word on them and you race others to say an example of the word on the card. Chaotic and would have been more fun if I didn't have a massive skill issue on this one.
 - Wingspan: beautiful artwork I will say, and I can appreciate the thought and scientific accuracy that went into this game that was clearly a labor of love. Personally I found it a bit complicated and limited opportunities to troll other players which is my favorite part about games, but I would probably enjoy it more if I played it more than only one time.
 - Decrypto: definitely my favorite game of 2025. It's like Codenames, where you are trying to get your team to select multiple cards with words on them by giving only a single-word clue, but where each team can "intercept" each other's guesses. This adds a layer of strategy where the codemaster has to give clues clear enough to be understood by their own team but confusing enough to throw off the other team, and no team is sitting around doing nothing when it's not their turn.
-- Catan: was pretty excited to try this out given its fame. Unfortunately only got to play half a game due to having to catch a flight, but still managed to win first try despite being constantly targeted by that annoying robber.
+- Catan: was pretty excited to try this out given its fame. Unfortunately only got to play half a game due to having to catch a flight, but still managed to win first try despite being constantly targeted by everyone.
 
 ## Books
 
@@ -47,7 +47,7 @@ I really slacked off on reading this year. The only book I finished in whole was
 
 Yeah, I'm not Muslim, but I think it would still be good to understand Muslims better so I can have more fruitful conversations with them. I might go for the Vedas next year.
 
-I started reading The Hitchhiker's Guide to the Galaxy last minute but am currently only halfway through. If you're looking for hard science fiction, this is not the book for that, though its has a good number of very imaginative ideas of its own. But the jokes are top tier and it made me understand British humor more deeply.
+I started reading The Hitchhiker's Guide to the Galaxy last minute but am currently only halfway through. If you're looking for hard science fiction, this is not the book for that, though some very imaginative ideas of its own. But the jokes are absurd and witty while managing to have deeper commentary on the human condition.
 
 ## Music
 
@@ -57,13 +57,17 @@ My music tastes haven't radically changed from last year, but I did get to see a
 - Dabin at the Concourse Project: there were actually multiple artists I wanted to see at the Concourse Project but somehow every time I was out of town, so it was great to finally get to go. I have been wanting to hear some of my favorite songs live for a long time, and the production did not disappoint.
 - TwoSetViolin at the Eisemann Center: an entertaining combination of classical and non-classical music and comedy.
 
+![Dabin concert photo](../../images/dabin.png)
+
+This remix of "Free" from *KPop Demon Hunters* was cool. The quality is potato since I forgot to change my camera back from 720p...I try to minimize using my phone at concerts to a few quick shots so I don't have a better photo.
+
 ## Travel
 
 Here is a picture for every place I visited in chronological order:
 
 ![Snowy hiking path in the Rocky Mountains](../../images/rocky-mountains.png)
 
-Rocky Mountains National Park: Went here for a senior trip. I actually went in October the year before so I was surprised that it was colder in May than it was then! On one of the hikes we walked into a minor snowstorm which is the most severe weather I've ever hiked in. If you look closely you can see trees that are not too distant but barely visible due to the wind and snow, so we were lucky because if it had gotten worse things might have gotten risky. But as a snow lover the view was stunningly beautiful and serene.
+Rocky Mountains National Park: I went here for a senior trip. I actually went in October the year before so I was surprised that it was colder in May than it was then! On one of the hikes we walked into a minor snowstorm which is the most severe weather I've ever hiked in. If you look closely you can see trees that are not too distant but barely visible due to the wind and snow, so we were lucky because if it had gotten worse things might have gotten risky. But as a snow lover the view was stunningly beautiful and serene.
 
 ![Mountainous view of San Francisco](../../images/california.png)
 
@@ -71,7 +75,7 @@ Visiting California during Texas weather made me understand how good they have i
 
 ![Greenery and lake in the Irish countryside](../../images/ireland.png)
 
-This is my first time in Europe for two years. We mostly stayed in Dublin but took some tours out to the countryside. I have a special place in my heart for the Shire-like landscapes of rural Britain and Ireland, possibly started out of nostalgia for middle school field trips to Outward Bound Ullswater in the English Lake District. Besides the landscape, the memories I most loved were visiting an Irish sheep farmer and getting to hold one of the cute sheep, and seeing Riverdance at the Gaiety Theatre—I was wowed by the visual uniqueness and physical impressiveness of Irish tap dancing.
+This is my first time in Europe for two years. We mostly stayed in Dublin but took some tours out to the countryside. I have a special place in my heart for the Shire-like landscapes of rural Britain and Ireland, possibly started out of nostalgia for middle school field trips to Outward Bound Ullswater in the English Lake District. Besides the landscape, the memories I most loved were visiting an Irish sheep farmer and getting to hold one of the cute sheep, and seeing Riverdance at the Gaiety Theatre. I wasn't expecting *that* much out of what is just described as traditional Irish dance, but it was really visually and physically impressive.
 
 ![Road with fall-colored trees in the background in Colorado](../../images/colorado.png)
 
@@ -79,7 +83,7 @@ This was the third time I have been to Colorado in the span of a year. This time
 
 ![Desert mesas and bushes in Arizona](../../images/sedona.png)
 
-Went skiing and hiking in Arizona to end off this year. I was a little worried the first day that I forgot all of my skills, but after watching some videos I was comfortably doing blues the next day again. Skiing is one of those things that looks really fun once you get good at it. I think I will need an instructor to level up to blacks.
+I finished off the year skiing and hiking in Arizona. I was a little worried the first day that I forgot all of my skills, but after watching some videos I was comfortably doing blues the next day again. Skiing is one of those things that looks really fun once you get good at it. I think I will need an instructor to level up to blacks.
 
 ## My Goals for 2026
 
