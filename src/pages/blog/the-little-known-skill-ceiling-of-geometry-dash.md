@@ -3,6 +3,7 @@ layout: ../../layouts/Post.astro
 title: "The Little-Known Skill Ceiling of Geometry Dash"
 summary: "An explanation for why GD is among the hardest games in the world."
 date: 2025-11-28
+hide: true
 ---
 
 When I tell people I play Geometry Dash, they think of a simple game about a cube jumping over spikes that you play on your phone on the toilet to kill time. People can't fathom taking a mobile game seriously, so I wrote this to show how it's possibly the game with the highest skill ceiling in the world, at least on par with esports games with a professional competitive scene. That is a bold claim, so let's take a look at the difficulty of a bunch of levels both quantitatively and qualitatively, starting with the first level in the game and working our way up to the hardest level that has currently been beaten.

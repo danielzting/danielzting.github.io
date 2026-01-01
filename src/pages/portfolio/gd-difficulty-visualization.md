@@ -6,6 +6,7 @@ category: JavaScript, Informational
 image: https://static.wikia.nocookie.net/geometry-dash-fan/images/a/a4/SLAUGHTERHOUSE_River.jpg
 alt: A screenshot of the level Slaughterhouse
 date: 2025-12-16
+hide: true
 ---
 
 This is the companion visualization to my blog post about the [little-known skill ceiling of Geometry Dash](/blog/the-little-known-skill-ceiling-of-geometry-dash). [Check it out here.](https://danielzting.github.io/gd-difficulty-visualization/)

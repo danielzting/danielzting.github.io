@@ -7,6 +7,7 @@ const posts = import.meta.glob("./blog/*.md", { eager: true });
     <ul>
         {
             Object.values(posts)
+                .filter((post: any) => !post.frontmatter.hide)
                 .sort(
                     (a: any, b: any) =>
                         Date.parse(b.frontmatter.date) -

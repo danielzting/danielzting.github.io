@@ -13,6 +13,7 @@ const projects = import.meta.glob("./portfolio/*.md", { eager: true });
     <ul>
         {
             Object.values(projects)
+                .filter((project: any) => !project.frontmatter.hide)
                 .sort(
                     (a: any, b: any) =>
                         Date.parse(b.frontmatter.date) -
