@@ -40,7 +40,7 @@ const { title, description, frontmatter } = Astro.props;
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={Astro.url.href} />
-        <meta property="og:site_name" content="My personal homepage" />
+        <meta property="og:site_name" content="Daniel Ting" />
         <meta property="og:image" content={Astro.url.origin + "/favicon.png"} />
 
         <ClientRouter />
@@ -61,6 +61,17 @@ const { title, description, frontmatter } = Astro.props;
             }
             setTheme();
             document.addEventListener("astro:after-swap", setTheme);
+        </script>
+        <script>
+            document.addEventListener("astro:after-swap", () =>
+                document
+                    .querySelectorAll("video")
+                    .forEach(
+                        (v) =>
+                            v.closest("[data-astro-transition-persist]") ||
+                            (v.src = v.src),
+                    ),
+            );
         </script>
     </head>
 
