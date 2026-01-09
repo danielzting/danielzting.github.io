@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
-title: "The Inhuman Skill Ceiling of Geometry Dash"
-summary: "An argument for GD being one of the hardest games in the world."
+title: The inhuman skill ceiling of Geometry Dash
+summary: An argument for GD being one of the hardest games in the world.
 date: 2026-01-07
 ---
 

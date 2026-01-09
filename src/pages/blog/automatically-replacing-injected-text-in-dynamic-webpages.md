@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
-title: "Automatically replacing text in dynamic webpages"
-summary: "How a seemingly simple problem turned out to be theoretically unsolvable."
+title: Automatically replacing text in dynamic webpages
+summary: How a seemingly simple problem turned out to be theoretically unsolvable.
 date: 2021-08-29
 ---
 
