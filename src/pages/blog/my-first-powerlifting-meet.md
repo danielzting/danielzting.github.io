@@ -1,9 +1,8 @@
 ---
 layout: ../../layouts/Post.astro
 title: My first powerlifting meet
-summary: My experience training for and participating in the 2025 Longhorn Open.
+summary: My training and meet day experience and some injury lore.
 date: 2026-01-14
-hide: true
 ---
 
 I promised in my [2025 Wrapped post](my-life-2025-wrapped) that I would write about my first powerlifting meet, so here we are.
@@ -14,7 +13,7 @@ For context, powerlifting is a sport that tests the maximal amount of weight you
 
 More precisely, for each of these three exercises, you have three attempts. For each attempt, you perform one rep, which is judged by three referees. The referees' verdicts are given as white and red lights, with a minimum of two out of three white lights for a lift to be counted as successful. You can then go for a higher weight on the next attempt, or re-attempt the same weight if you failed, but you cannot go down in weight.
 
-This creates an element of strategy where you have to read your body and pick attempts that maximize your total without generating extraneous fatigue. You don't want to leave weight on the table, but if pick a weight that's too much and fail, your total will be significantly affected.
+This creates an element of strategy where you have to read your body and pick attempts that maximize your total without tiring yourself out too early. You don't want to leave weight on the table, but if pick a weight that's too much and fail, that is also leaving weight on the table compared to picking a lighter weight that you can complete.
 
 ### Why compete?
 
@@ -24,19 +23,19 @@ All of my other hobbies are stereotypically geeky activities, but there's someth
 
 If this post inspires you to sign up for a meet, here are three tips I have:
 
-1. Get to know all the requirements. You may already have a belt and chalk if you've been training, but for a meet, you will need a singlet and knee-length socks.
+1. Get to know all the requirements. You may already have a belt and chalk if you've been training, but for a meet, you will need a singlet and knee-length socks. Bring plenty of energy-boosting snacks too since it might take the whole day without time to eat. Others will have written more comprehensive meet guides.
 2. Go really easy on the openers. You can't go down in weight if you fail, and if you fail all three attempts of a lift, you bomb out of the competition and you become ineligible to get an official total. This is something that happens in real life, whether that's due to overestimating your strength, not preparing or warming up properly, judging technicalities, nerves, or other factors.
 3. Consider hiring a handler. A handler is an experienced coach that plans out the exact optimal time to do your warm ups before your real attempts come along, chooses your attempts, and supports you in general throughout the day. It can be stressful trying to keep in your head when and what you're supposed to be doing during your first meet, and a handler will let you focus on lifting.
 
     If you are inspired to do a meet, I can handle you for free, but an ideal handler will be an experienced competitor themselves and be familiar with your training history. I found that having my coach handle me and choose my attempts was a big confidence boost since he served as a second opinion that I would be able to hit the attempts he chose. I'm very indecisive, so letting someone else choose my attempts took the stress out of the decision.
 
-### Some more rules
+### Some form technicalities 🤓
 
 If you have done any strength training program, you will likely be familiar with these fundamental "big three" lifts. However, there are some nuances that make it a little different from an informal gym PR attempt:
 
 - To hit depth on a squat, the hip crease must "break parallel" by going below the top of the knee. Only going *to* parallel (or heaven forbid, doing a half-rep) will get you red-lighted.
 - On the bench press, the bar must come to a complete stop on the chest and pause for a second before going back up.
-- Deadlifts are the most straightforward. The main thing to know is that "hitching" the bar by resting it on the thighs on the way up and letting go of the bar before it has returned to the floor is not allowed.
+- Deadlifts are the most straightforward. The main thing to know is that "hitching" the bar by resting it on the thighs on the way up is not allowed, nor is letting go of the bar before it has returned to the floor.
 
 In addition, you must wait for certain commands at certain points of each lift:
 
@@ -89,7 +88,7 @@ May 10, 2025. It was a busy night, and the air was festive, for the university-w
 
 I fell onto my shoulder and my chin, and pain shot through those areas. I was mad at myself at tripping in such a stupid way, but this was nothing new to me. I had gotten my fair share of injuries, including a five square inch gash from falling off a bike that slipped in the rain that ended up getting infected. I knew I would see stars for a minute and then be on my way.
 
-Or that was what I thought. Some people crowded around me and asked if I was OK. The chin pain was going away, and I said yes, but I realized I couldn't get up. There was something bad that happened inside my left shoulder, and I couldn't move it. Some friends got in a car to take me to the emergency room, but as I stood up, I felt a click, and discovered I could move my shoulder with minor pain again. By this point, I was fairly committed to signing up for a meet in late 2025. I was frustrated because I knew I would have to take a week or two off of training, but relieved that my shoulder was able to un-dislocate itself.
+Or that was what I thought. Some people crowded around me and asked if I was OK. The chin pain was going away, and I said yes, but I realized I couldn't get up. Something happened to my left shoulder that prevented me from moving it. Some friends got in a car to take me to the emergency room, but as I stood up, I felt a click, and discovered I could move my shoulder with minor pain again. I was frustrated because I knew I would have to take a week or two off of training, but relieved that my shoulder was able to un-dislocate itself.
 
 I returned to the gym two weeks later, cautiously optimistic about getting back into lifting heavy. I benched the empty bar as a warm-up without issue, so I slapped a pair of plates on. That's when I realized it would take a lot longer than two weeks to recover. I was able to get 135 up, but it felt incredibly uncomfortable and unstable. Even worse, when I tried to squat, I found out my left shoulder had lost range of motion significantly, to the point where I couldn't even hold the bar on my back to get into position. The only saving grace was that I could still deadlift normally.
 
@@ -111,7 +110,7 @@ I started rehab in June, and committed to the Longhorn Open, taking place on Nov
 
 7 AM: I start the drive down to UT.
 
-7:30 AM: I step foot on campus for the first time since graduation. Oh, the nostalgia...
+7:30 AM: I step foot on campus for the first time since graduation. The nostalgia...
 
 8 AM: Staff open up the Rec Center and we get our equipment checked.
 
@@ -129,7 +128,7 @@ I started rehab in June, and committed to the Longhorn Open, taking place on Nov
 
 - **[Bench 1] 95 kg (209 lb):** As I was setting up, a spotter asked if I wanted a lift-off. This caught me off guard because I was not aware lift-offs were allowed. I decided to decline since I had never trained with a spotter and read that "you should never do anything new on meet day." Unracking was awkward since I had submitted too low of a rack height, but the weight went up fine.
 - **[Bench 2] 100 kg (220 lb):** I was able to match my gym PR on my second attempt, and it went up even better than my first attempt after fixing the rack height. This was a good sign for attempt three.
-- **[Bench 3] 105 kg (231 lb):** My coach had planned on 102.5 kg since my goal for this meet was to bench the big sweet 225 milestone (bar + 2x45 plates on each side), but after seeing how attempt two went up, we decided to go for broke. 
+- **[Bench 3] 105 kg (231 lb):** My coach had planned on 102.5 kg since my goal for this meet was to bench the big 225, but after seeing how attempt two went up, we decided to go for broke. 
 
     Bench is like squat where you can kind of predict how a set is gonna go depending on how heavy the weight feels when you unrack it. I knew this would be hard, but I was fairly confident I could do it. The last attempt was slow but steady, and I walked off the platform with another 10 lb PR.
 
@@ -150,15 +149,15 @@ I started rehab in June, and committed to the Longhorn Open, taking place on Nov
 | Deadlift | 170         | 375         | 2.1x             |
 | Total    | 427.5       | 942         | 5.3x             |
 
-Overall, I was very satisfied with my performance. My proudest PR was my squat, as I beat my goal of 315 by over 20 pounds. But the biggest milestone was benching two plates for the first time. A 225 pound bench is perhaps the most famous strength benchmark and rite of passage in gym culture and something I had been chasing ever since I started lifting four years ago. Unfortunately, I did not achieve my goal of a 405 deadlift.
+Overall, I was very satisfied with my performance. My proudest PR was my squat, as I beat my goal of 315 by over 20 pounds. But the biggest milestone was benching two plates for the first time. A 225 pound bench (45 lb bar with two 45 lb plates on each side) is perhaps the most famous strength benchmark and rite of passage in gym culture, which I had been chasing ever since I started lifting four years ago. Unfortunately, I did not achieve my goal of a 405 deadlift.
 
 <video src="/bench.webm" controls></video>
 
-Here is a video of my bench PR. If you would like to see the rest of my attempts, let me know.
+Here is a video of my bench PR. If you would like to see the rest of my attempts, let me know and I might post them.
 
 ### An enormous skill gap
 
-I also just want to say I find the difference between normal gym-goer strength and powerlifter strength incredible. There is a formula called Dynamic Objective Team Scoring or DOTS for short (every sport really does have its own nerdy statistics, huh) that normalizes totals by bodyweight to produce a number that can quantify strength between lighter and heavier lifters. A DOTS below 300–400 is considered beginner level by powerlifting standards.
+I also just want to say I find the difference between normal gym-goer strength and powerlifter strength incredible. There is a formula called Dynamic Objective Team Scoring or DOTS for short that normalizes totals by bodyweight to produce a number that can quantify strength between lighter and heavier lifters. A DOTS below 300–400 is considered beginner level by powerlifting standards.
 
 Over the past 1.5 years, I can count on the fingers of one hand the amount of times I have seen someone at my apartment or office gym lift more than me. (I remember the one time I went to a serious strength gym and saw someone doing my max for a warm up.) Yet with all my experience, I achieved a DOTS of 294, which puts me at the bottom 10–20% of competitors according to [Stronger by Science](https://www.strongerbyscience.com/how-to-get-strong-what-is-strong/). Even the venerated 1000 pound club at my bodyweight is around 25th percentile.
 
