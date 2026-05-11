@@ -5,7 +5,7 @@ summary: Random thoughts on Europe.
 date: 2026-05-10
 ---
 
-I had the opportunity to have a reunion with some friends during my middle school years in Paris. I had not seen these people for almost a decade but have stayed in contact weekly. I think being outsiders in a foreign country makes expats form lasting bonds with each other for support. But enough about that, I wanted to give an outline of the trip and some of my observations. Experienced travelers may already know many things in this post but hopefully you'll learn at least one interesting thing.
+I had the opportunity to have a reunion with some friends during my middle school years in Paris. I had not seen these people for almost a decade but have stayed in contact weekly. I think being outsiders in a foreign country really makes expats form lasting bonds with each other for support. But enough about that, I wanted to give an outline of the trip and some of my observations. Experienced travelers may already know many things in this post but hopefully you'll learn at least one interesting thing.
 
 ## Monday, February 23
 
@@ -60,14 +60,14 @@ I was told that Portugal would be nice and cheap for tourists since their econom
 
 ## Saturday, February 28
 
-First full day in Lisbon. Spent the day exploring and ended with a very expensive seafood dinner in which there was a slight mishap involving a live lobster and a shattered plate. The restaurant was very nice (shrimp in butter was a revelation to me) but we had to walk through a ghetto area and turn down an offer for drugs to reach it.
+First full day in Lisbon. Spent the day exploring and ended with a very expensive seafood dinner in which there was a slight mishap involving a live lobster and ending in many pieces of shattered plate. The restaurant was very nice (shrimp in butter was a revelation to me) but we had to walk through a ghetto area and turn down an offer for drugs to reach it.
 
 ![Lisbon during the day](../../images/lisbon-day.png)
 ![Lisbon during sunset](../../images/lisbon-sunset.png)
 
 ## Sunday, March 1
 
-Last full day in Lisbon. One of us had the idea to rent a yacht tour and sipping green wine on the Tagus while watching the sunset was definitely a highlight of the trip, along with a night stroll in deep conversation afterwards. One word of advice is to bring an extra layer because it was super windy on the river.
+Last full day in Lisbon. One of us had the idea to rent a yacht tour. I will say, sipping green wine on the Tagus while watching the sunset was definitely a highlight of the trip, along with the night stroll in deep conversation afterwards. One word of advice if go on a boat yourself is to bring an extra layer because it was super windy on the river.
 
 One annoying thing about restaurants in Europe is that the water portions can be stingy. In fact the restaurant we went to didn't even serve free tap water at all. I believe that free boatloads of water is a God-given right that America does far better in.
 
@@ -87,16 +87,16 @@ First full day in Nice. Had pizza in the morning and now I find American fast fo
 
 Last full day in Nice. We didn't get to do much, partly because scuba diving turned out to be closed for winter and my friends are much bigger night owls then I am and kept staying up playing Coup and Avalon, causing us to sleep through half the morning.
 
-We did take a dip in the Atlantic, which was unsurprisingly cold because it was 60 degrees. Now 60 degrees is a perfect air temperature but it's completely different for water, a much better conductor of heat. Though I was proud of the fact that I was able to handle it the best. This was a big change from the 7th and 8th grade field trips to Outward Bound Ullswater where I definitely was the biggest chicken when it came to cliff jumping and other water activities. I remember back then I hated those because it was freezing but I think my decision to experiment with cold showers a bit before the trip combined with at least 50 additional pounds of muscle and fat.
+We did take a dip in the Atlantic, which was unsurprisingly cold because it was 60 degrees. Now 60 degrees is a perfect air temperature but it's completely different for water, a much better conductor of heat. Still, I was proud of the fact that I was able to handle it the best out of the group. This was a big change from the 7th and 8th grade field trips to Outward Bound Ullswater where I definitely was the biggest chicken when it came to cliff jumping and other water activities. I remember back then I hated those because it was freezing but I think my decision to experiment with cold showers a bit before the trip combined with at least 50 additional pounds of muscle and fat helped a ton.
 
 ![A beach in Nice](../../images/nice-ocean.png)
 <p align="center"><em>The water was so blue...</em></p>
 
-Ended the trip with a group workout.
+Ended the trip with a group workout and a new personal Avalon 10–loss streak for me. I don't know how I'm so bad at these social deduction games...
 
 ## Thursday, March 5
 
-Said some sad goodbyes and I took a flight back to Oslo. Unfortunately the flight was delayed so I didn't get to my hotel until past midnight.
+Said some sad goodbyes and I took a flight back to Oslo which involved a stop at Amsterdam. I learned from my friend that you can often check in your carry-on for free if you ask at the counter. Unfortunately the flight was delayed so I didn't get to my hotel until past midnight.
 
 ## Friday, March 6
 
