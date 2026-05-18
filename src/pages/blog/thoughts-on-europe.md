@@ -92,7 +92,7 @@ We did take a dip in the Atlantic, which was unsurprisingly cold because it was 
 ![A beach in Nice](../../images/nice-ocean.png)
 <p align="center"><em>The water was so blue...</em></p>
 
-Ended the trip with a group workout and a new personal Avalon 10–loss streak for me. I don't know how I'm so bad at these social deduction games...
+Ended the trip with a group workout and a new Avalon personal record 10–game loss streak for me. I don't know how I'm so bad at these social deduction games...
 
 ## Thursday, March 5
 
@@ -116,7 +116,7 @@ One thing I noticed was how much longer it took to do things because of communic
 
 This got me thinking if I could quantify group inefficiencies. If we assume the delay is determined by the slowest traveler and everyone's speed is normally distributed, then the question becomes out of \\(n\\) samples from a normal distribution, what is the expected maximum value. I'm washed at math now so I asked ChatGPT (don't worry, all my writing is handwritten, though I do use AI for informal research purposes). Apparently the answer is \\(O(\\sqrt{\\ln{n}})\\).
 
-But this assumes that the samples are independent. We can say that travelers are not independent because one delay can affect others, like a long dump preventing the next guy in line from using the shower. So to make the equation cooler and roll off the tongue better let's just square it (don't try this at home mathematicians) and say group inefficiency scales logarithmically with group size.
+But this assumes that the samples are independent. We can say that travelers are not independent because one delay can affect others, like a long dump preventing the next guy in line from using the shower. So to make the equation cooler and roll off the tongue better let's just square it (you *can* try this at home math majors, but don't try this at school) and say group inefficiency scales logarithmically with group size.
 
 Therefore, I propose the *Logarithmic Inefficiency Law of Group Traveling*:
 
