@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
-title: My Europe Trip
-summary: Random thoughts on Europe.
+title: Thoughts on Europe
+summary: A recap of my trip and observations on cultural differences (plus extreme value theory??)
 date: 2026-05-10
 ---
 
@@ -109,3 +109,15 @@ One thing you should know is that you should plan extra time for your flight *ou
 At last I landed in Austin at 7 PM after over 24 hours of traveling or 36 if you count when I left Nice. I was even to make a concert at 8 while having to wait at the baggage claim for my bag that was gate checked. That's the nice perk of having a small airport. I was off the plane ten minutes after touchdown and at the baggage claim in another five while I remember taxiing at Amsterdam for half an hour or something ridiculous.
 
 Finally got home after the concert after a very long day and collapsed. As much as I like exploring the world, I always end up missing the routine and comfort of home...
+
+## Final thoughts
+
+One thing I noticed was how much longer it took to do things because of communication overhead, toilet bottlenecks, going back to get the charger one person forgot, etc.
+
+This got me thinking if I could quantify group inefficiencies. If we assume the delay is determined by the slowest traveler and everyone's speed is normally distributed, then the question becomes out of \\(n\\) samples from a normal distribution, what is the expected maximum value. I'm washed at math now so I asked ChatGPT (don't worry, all my writing is handwritten, though I do use AI for informal research purposes). Apparently the answer is \\(O(\\sqrt{\\ln{n}})\\).
+
+But this assumes that the samples are independent. We can say that travelers are not independent because one delay can affect others, like a long dump preventing the next guy in line from using the shower. So to make the equation cooler and roll off the tongue better let's just square it (don't try this at home mathematicians) and say group inefficiency scales logarithmically with group size.
+
+Therefore, I propose the *Logarithmic Inefficiency Law of Group Traveling*:
+
+> The time it takes to do anything, such as deciding on plans or getting out of the house after waking up, is proportional to the logarithm of the number of travelers.
