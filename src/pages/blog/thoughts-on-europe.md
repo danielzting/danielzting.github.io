@@ -52,6 +52,10 @@ Got to spent a dedicated day skiing which is always exhilarating. I was impresse
 ![Ski slope with ominous building in the fog](../../images/evil-building.png)
 <p align="center"><em>This building is evil...</em></p>
 
+One incident left a bad taste in my mouth. For the ride back home we used a service called Bolt which was the European version of Uber. Before the driver arrived, I got a notice saying he was waiting for us and we had two minutes to get in the car before getting waiting fees. My friends told me this was a common tactic used by shady drivers to get a bit more money. Just as the two minutes was about to be up, the guy actually pulls up and we pile in, but the notice doesn't go away until another couple minutes into the ride.
+
+After the ride was over, I get charged a couple dollars in fees as expected. Thankfully, I was able to get a refund surprisingly instantly by opening a support ticket. Now I'm not saying all Bolt drivers are scammers but I'm not the only one based on my friends' and online experiences. I mention this because this is the first time I was grateful for American tipping culture. Normally I'm not a fan but I realized one benefit is that this kind of thing would never happen in America.
+
 ## Friday, February 27
 
 We took TAP Air to get to Lisbon. I was surprised because I don't remember any of the airports in Europe having the new scanners. Having to take out liquids and electronics felt backwards after the convenience of...not having to do that.
